@@ -32,5 +32,10 @@ public class HelloServletTest {
 
         verify(response).setContentType("text/html");
         assert stringWriter.toString().contains("Hello from Servlet");
+        assert(result.contains("GitHub"));
+        assert(result.contains("Jenkins"));
+        assert(result.contains("Docker"));
+        assert(result.contains("Tomcat"));
+
     }
 }
