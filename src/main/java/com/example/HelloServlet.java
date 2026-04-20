@@ -19,7 +19,7 @@ public class HelloServlet extends HttpServlet {
         out.println("<html><body>");
         out.println("<h2>Deployment Successful!</h2>");
         out.println("<p>GitHub → Jenkins → Docker → Tomcat</p>");
-        out.println("</body></html>")
+        out.println("</body></html>");
         
     }
 }
