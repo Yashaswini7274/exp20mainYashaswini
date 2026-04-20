@@ -16,6 +16,10 @@ public class HelloServlet extends HttpServlet {
 
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<h1>Hello from Servlet</h1>");
+        out.println("<html><body>");
+        out.println("<h2>Deployment Successful!</h2>");
+        out.println("<p>GitHub → Jenkins → Docker → Tomcat</p>");
+        out.println("</body></html>")
+        
     }
 }
